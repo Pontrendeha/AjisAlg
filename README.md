@@ -26,7 +26,7 @@
 <body>
 	
    <!-- Ganti Audio di sini -->
-   <audio src="https://feeldreams.github.io/audio/melody2.mp3" id="linkmp3" class="sembunyi"></audio>
+   <audio src="https://feeldreams.github.io/audio/thousand.mp3" id="linkmp3" class="sembunyi"></audio>
    
    <div id="bodyblur">
      <!-- Wallpaper --><img src="https://feeldreams.github.io/pics/awan8.jpg" id="wallpaper"/>
