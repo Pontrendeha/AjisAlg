@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html>
-<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script><link href="https://htmlku.com/haipacar/style.css" rel="stylesheet" type="text/css" /><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
   
 <head>
-<title>Htmlku.com/haipacar - Pesan buat Kamuuuu! 💐</title>
-<!-- 
+  <title>Pesan HTML buat Kamu Nih! <3</title>
+  <meta name="description" content="Buka bentar yaa.. HTML feeldream.id">
+  <meta name="keywords" content="HTML, Bucin, Feeldream">
+  <meta name="author" content="Feeldream">
+  <!-- 
   Made with love by Rayys!
   
      Blog: feeldream.id
@@ -21,73 +13,96 @@
      TikTok: @feelthisray
      
   Thanks to all <3
--->
+  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link rel="stylesheet" href="https://htmlku.com/night/play/style.css">
 </head>
 <body>
 	
    <!-- Ganti Audio di sini -->
-   <audio src="https://feeldreams.github.io/audio/thousand.mp3" id="linkmp3" class="sembunyi"></audio>
+   <audio src="https://drive.google.com/file/d/16wcwoG9w9OFyAlER0RLtkwgKODCFEYJn/view?usp=drivesdk" id="linkmp3" class="sembunyi"></audio>
    
    <div id="bodyblur">
-     <!-- Wallpaper --><img src="https://feeldreams.github.io/pics/awan8.jpg" id="wallpaper"/>
+     <!-- Wallpaper --><img src="https://drive.google.com/file/d/16bRXHuOGld8Gh3-ybUFRs8QhB2WsCr4k/view?usp=drivesdk" id="wallpaper"/><div id="beneranblur"></div>
    </div>
    
    <div id='Content'>
 
-     <div id="ftAwal">
-       <!-- Stiker Pembuka -->
-       <img src="https://feeldreams.github.io/pandaputih.gif" id="ftoAwal"/>
+     <div id="suratin" onClick="memulai();">
+       <!-- Tombol Surat --><img src="https://feeldreams.github.io/kadoin.png"/>
      </div>
+     <p id="ket">Klik Kadonya!</p>
 
-     <div id="loveIn">
-       <!-- Tombol LOVE --><label class='lovein'>❤️</label>
-     </div>
-     <p id="ket">HI ENAA!! Sentuh Tombolnya!</p>
-     
      <div class="kumpulanstiker">
          <!-- Stiker untuk Konten -->
-         <img src="https://feeldreams.github.io/bunga.gif" id="fotostiker"/>
-         <img src="https://feeldreams.github.io/pusn.gif" id="fotostiker1"/>
-         <img src="https://feeldreams.github.io/ngumpet.gif" id="fotostiker2"/>
-         <img src="https://feeldreams.github.io/ciumin.gif" id="fotostiker3"/>
+         <img src="https://feeldreams.github.io/pusn.gif" id="stiker1"/>
+         <img src="https://feeldreams.github.io/bunga.gif" id="stiker2"/>
+         <img src="https://feeldreams.github.io/mndkat.gif" id="stiker3"/>
+         <img src="https://feeldreams.github.io/smprt.gif" id="stiker4"/>
+         <img src="https://feeldreams.github.io/ngumpet.gif" id="stiker5"/>
+
+         <!-- Stiker untuk Akhiran -->
+         <img src="https://feeldreams.github.io/bunga.gif" id="stiker" onClick="ftaksi();"/>
+         <img src="https://feeldreams.github.io/bunga.gif" id="stikerAkhir"/>
+     </div>
+     <p id="halo">Good Night!</p>
+
+     <script class="sembunyi">
+       async function pesanAwal() {
+          suratin.style="display:none";ket.style="display:none";
+          await swalst.fire({
+            title: 'Hai, Enaaa! тЭдя╕П',
+            imageUrl: '' + stiker1.src,
+         });   	
+         await swalst.fire({
+            title: 'Aku Cuma Mau Bilang ЁЯШН',
+            imageUrl: '' + stiker2.src,
+         });
+         await swalst.fire({
+            title: 'Good Night ya! ЁЯднтЭдя╕П',
+            imageUrl: '' + stiker3.src,
+         });
+         await swalst.fire({
+            title: 'pasti jam satu tidurnya:(┬▓ ЁЯШбтЭдя╕П',
+            imageUrl: '' + stiker4.src,
+         });
+         await swalst.fire({
+            title: 'improve yaaa!! biar gak jam satu terus tidurnyaaa, kalau ada kesempatan tidur cepet, mending maksimalin, ok? ЁЯе║тЭдя╕П',
+            imageUrl: '' + stiker5.src,
+         });
+         mulaikonten();
+       }
+     </script>
+     <div><blockquote id='bq'>
+
+       <!-- Konten Pembukaan -->
+       <p id="kalimat">Dah Segitu Aja ya.. ЁЯднтЭдя╕П     </p>
+       <p id="kalimat2">Selamat melepas lelah, jangan lupa baca doa dulu sebelum tidur ЁЯШН ... Semangat buat besok jalani harinya yaa.. ЁЯе│</p>
+       <p id="kalimatbawah">I Love You ayangg тЭдя╕П</p> 
+       <p id="kalimatbawah2" class="sembunyi">Good Night bubb!! тЭдя╕П</p> 
+       <p id="kalimatbawah3" class="sembunyi">Mimpi Indah ya тЭдя╕П</p> 
+
+     </blockquote></div>
+
+     <!-- Tombol Multifungsi -->
+     <div id="Tombol">
+       <a onClick="multifungsi()">
+         <b id="tmbl">ЁЯТМ Kirim</b>
+       </a>
      </div>
      
-     <div><div id='pergeseran'>
-     	
-        <p><b>
-	        <span>haii pacar aku yang<br>gemesin bangett 😋😍🫶</span>
-        </b></p>
-        
-        <p><b>
-	        <span>Tidur yaaa!!!</span>
-        </b></p>
-        
-        <p><b>
-	        <span>Gak baik<br>begadang mulu<3333</span>
-        </b></p>
-
-        <p><b>
-	        <span>jaga pola tidurnya<br>ntar sakit dunianya gak cerah lagi</span>
-        </b></p>
-
-        <p><b>
-	        <span>mimpi indah yaaa<br>jangan lupa doaa</span>
-        </b></p>
-        
-        <p><b>
-	        <span>yang nyenyak tidurnyaa<br>bareng ama mahreen</span>
-        </b></p>
-        
-        <p><b>
-	        <span>terakhir, GOODNIGHT BUBBB<br>hehehe i lvyouuu 💞🤍💝❣️</span>
-        </b></p>
-       
-     </div></div>
-
-     <p id="ketgeser">💌 Klik untuk Geser!</p>
-
+     <!-- Pesan yang dikirim ke WhatsApp -->
+     <span id="pesanWA" class="sembunyi">Awww Good Night too тЭдя╕ПтЭдя╕ПтЭдя╕П</span>
+     
    </div>
-   
-<script src="https://htmlku.com/haipacar/script.js"></script>
+
+<script src="https://htmlku.com/night/play/script.js"></script>
+<!-- Sampai Sini -->
 </body>
 </html>
