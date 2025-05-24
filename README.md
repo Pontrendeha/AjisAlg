@@ -26,10 +26,10 @@
 <body>
 	
    <!-- Ganti Audio di sini -->
-   <audio src="https://drive.google.com/file/d/16wcwoG9w9OFyAlER0RLtkwgKODCFEYJn/view?usp=drivesdk" id="linkmp3" class="sembunyi"></audio>
+   <audio src="https://audio.jukehost.co.uk/SBdpRRY632SQcjyFeGSEa9nYFOrlXacM" id="linkmp3" class="sembunyi"></audio>
    
    <div id="bodyblur">
-     <!-- Wallpaper --><img src="https://drive.google.com/file/d/16bRXHuOGld8Gh3-ybUFRs8QhB2WsCr4k/view?usp=drivesdk" id="wallpaper"/><div id="beneranblur"></div>
+     <!-- Wallpaper --><img src="https://ibb.co/V0ZHwb0z" id="wallpaper"/><div id="beneranblur"></div>
    </div>
    
    <div id='Content'>
@@ -57,23 +57,23 @@
        async function pesanAwal() {
           suratin.style="display:none";ket.style="display:none";
           await swalst.fire({
-            title: 'Hai, Enaaa! тЭдя╕П',
+            title: 'Hai, Enaaa!',
             imageUrl: '' + stiker1.src,
          });   	
          await swalst.fire({
-            title: 'Aku Cuma Mau Bilang ЁЯШН',
+            title: 'Aku Cuma Mau Bilang',
             imageUrl: '' + stiker2.src,
          });
          await swalst.fire({
-            title: 'Good Night ya! ЁЯднтЭдя╕П',
+            title: 'Good Night ya!',
             imageUrl: '' + stiker3.src,
          });
          await swalst.fire({
-            title: 'pasti jam satu tidurnya:(┬▓ ЁЯШбтЭдя╕П',
+            title: 'pasti jam satu tidurnya:(',
             imageUrl: '' + stiker4.src,
          });
          await swalst.fire({
-            title: 'improve yaaa!! biar gak jam satu terus tidurnyaaa, kalau ada kesempatan tidur cepet, mending maksimalin, ok? ЁЯе║тЭдя╕П',
+            title: 'improve yaaa!! biar gak jam satu terus tidurnyaaa, kalau ada kesempatan tidur cepet, mending maksimalin, ok?',
             imageUrl: '' + stiker5.src,
          });
          mulaikonten();
@@ -82,11 +82,11 @@
      <div><blockquote id='bq'>
 
        <!-- Konten Pembukaan -->
-       <p id="kalimat">Dah Segitu Aja ya.. ЁЯднтЭдя╕П     </p>
-       <p id="kalimat2">Selamat melepas lelah, jangan lupa baca doa dulu sebelum tidur ЁЯШН ... Semangat buat besok jalani harinya yaa.. ЁЯе│</p>
-       <p id="kalimatbawah">I Love You ayangg тЭдя╕П</p> 
-       <p id="kalimatbawah2" class="sembunyi">Good Night bubb!! тЭдя╕П</p> 
-       <p id="kalimatbawah3" class="sembunyi">Mimpi Indah ya тЭдя╕П</p> 
+       <p id="kalimat">Dah Segitu Aja ya..     </p>
+       <p id="kalimat2">Selamat melepas lelah, jangan lupa baca doa dulu sebelum tidur ... Semangat buat besok jalani harinya yaa.. </p>
+       <p id="kalimatbawah">I Love You ayangg</p> 
+       <p id="kalimatbawah2" class="sembunyi">Good Night bubb!!</p> 
+       <p id="kalimatbawah3" class="sembunyi">Mimpi Indah ya...</p> 
 
      </blockquote></div>
 
